@@ -1,0 +1,284 @@
+{
+  "slug": "template",
+  "niche": "depilation",
+  "name": "Название студии",
+  "short_name": "Студия",
+  "tagline": "Короткий слоган: что делаете и чем отличаетесь",
+  "about": "2–3 предложения о студии: материалы, подход, атмосфера.",
+  "timezone": "Europe/Moscow",
+  "currency": "RUB",
+  "locale": "ru-RU",
+  "accent": "#E8A598",
+  "contacts": {
+    "phone": "+7 (000) 000-00-00",
+    "whatsapp": "",
+    "telegram": "",
+    "instagram": ""
+  },
+  "address": {
+    "text": "Город, улица, дом",
+    "note": "Как найти вход",
+    "map_url": ""
+  },
+  "policy": {
+    "cancel_hours": 12,
+    "slot_step_min": 15,
+    "horizon_days": 30,
+    "min_lead_min": 60
+  },
+  "hours": {
+    "mon": "10:00-21:00",
+    "tue": "10:00-21:00",
+    "wed": "10:00-21:00",
+    "thu": "10:00-21:00",
+    "fri": "10:00-21:00",
+    "sat": "11:00-19:00",
+    "sun": "11:00-17:00"
+  },
+  "exceptions": [],
+  "info_cards": [
+    {
+      "icon": "shield-check",
+      "title": "Всё одноразовое",
+      "text": "Шпатели, перчатки, простыни — новые для каждого гостя. Стерилизация по СанПиН."
+    },
+    {
+      "icon": "leaf",
+      "title": "Мягкие составы",
+      "text": "Паста без отдушек и плёночный воск для чувствительных зон."
+    },
+    {
+      "icon": "clock",
+      "title": "Без ожидания",
+      "text": "Между гостями 15 минут на подготовку кабинета — начинаем вовремя."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "logo": null
+  },
+  "masters": [
+    {
+      "key": "angela",
+      "name": "Анжела Мельникова",
+      "role_title": "Топ-мастер, шугаринг",
+      "bio": "Специализируется на глубоком бикини и чувствительной коже. Обучает мастеров студии.",
+      "experience_years": 11,
+      "photo": "images/masters/angela.jpg"
+    },
+    {
+      "key": "daria",
+      "name": "Дарья Соколова",
+      "role_title": "Мастер шугаринга и воска",
+      "bio": "Быстрая и аккуратная техника, работает с плёночным воском.",
+      "experience_years": 6,
+      "photo": "images/masters/daria.jpg"
+    },
+    {
+      "key": "marina",
+      "name": "Марина Ким",
+      "role_title": "Мастер воска",
+      "bio": "Восковая депиляция лица и тела, комплексы «под ключ».",
+      "experience_years": 4,
+      "photo": "images/masters/marina.jpg"
+    }
+  ],
+  "services": [
+    {
+      "key": "bikini-deep",
+      "category": "Шугаринг",
+      "name": "Глубокое бикини",
+      "description": "Полное удаление волос в зоне бикини, включая межъягодичную зону.",
+      "duration_min": 45,
+      "buffer_min": 15,
+      "price": 2600,
+      "popular": true,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "bikini-classic",
+      "category": "Шугаринг",
+      "name": "Классическое бикини",
+      "description": "Зона по линии белья.",
+      "duration_min": 30,
+      "buffer_min": 15,
+      "price": 1500,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "legs-full",
+      "category": "Шугаринг",
+      "name": "Ноги полностью",
+      "description": "Стопы, голени, колени и бёдра.",
+      "duration_min": 60,
+      "buffer_min": 15,
+      "price": 2800,
+      "popular": true,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "legs-shins",
+      "category": "Шугаринг",
+      "name": "Голени",
+      "description": "С коленями.",
+      "duration_min": 30,
+      "buffer_min": 15,
+      "price": 1400,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "underarms",
+      "category": "Шугаринг",
+      "name": "Подмышки",
+      "description": "",
+      "duration_min": 15,
+      "buffer_min": 15,
+      "price": 700,
+      "masters": [
+        "angela",
+        "daria",
+        "marina"
+      ]
+    },
+    {
+      "key": "arms-full",
+      "category": "Шугаринг",
+      "name": "Руки полностью",
+      "description": "Кисти, предплечья и плечи.",
+      "duration_min": 40,
+      "buffer_min": 15,
+      "price": 1600,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "wax-face",
+      "category": "Воск",
+      "name": "Лицо: верхняя губа и подбородок",
+      "description": "Плёночный воск, подходит для чувствительной кожи.",
+      "duration_min": 20,
+      "buffer_min": 10,
+      "price": 900,
+      "masters": [
+        "marina",
+        "daria"
+      ]
+    },
+    {
+      "key": "wax-brows",
+      "category": "Воск",
+      "name": "Коррекция бровей воском",
+      "description": "Форма + коррекция.",
+      "duration_min": 30,
+      "buffer_min": 10,
+      "price": 1200,
+      "masters": [
+        "marina"
+      ]
+    },
+    {
+      "key": "wax-legs",
+      "category": "Воск",
+      "name": "Ноги полностью воском",
+      "description": "Тёплый воск, быстрый результат.",
+      "duration_min": 50,
+      "buffer_min": 15,
+      "price": 2500,
+      "masters": [
+        "marina",
+        "daria"
+      ]
+    },
+    {
+      "key": "combo-total",
+      "category": "Комплексы",
+      "name": "Комплекс «Тотал»",
+      "description": "Глубокое бикини + ноги полностью + подмышки. Экономия 900 ₽.",
+      "duration_min": 120,
+      "buffer_min": 15,
+      "price": 5200,
+      "popular": true,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "combo-summer",
+      "category": "Комплексы",
+      "name": "Комплекс «Лето»",
+      "description": "Голени + подмышки + классическое бикини.",
+      "duration_min": 75,
+      "buffer_min": 15,
+      "price": 3200,
+      "masters": [
+        "angela",
+        "daria"
+      ]
+    },
+    {
+      "key": "first-visit",
+      "category": "Комплексы",
+      "name": "Первый визит: консультация + зона на выбор",
+      "description": "Подберём технику и проведём пробную процедуру одной небольшой зоны.",
+      "duration_min": 30,
+      "buffer_min": 15,
+      "price": 990,
+      "price_is_from": true,
+      "masters": [
+        "angela",
+        "daria",
+        "marina"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "key": "room",
+      "image": "images/gallery/room.jpg",
+      "caption": "Тёплый кабинет и мягкий свет"
+    },
+    {
+      "key": "ritual",
+      "image": "images/gallery/ritual.jpg",
+      "caption": "Свежий текстиль для каждого гостя"
+    },
+    {
+      "key": "legs",
+      "image": "images/gallery/legs.jpg",
+      "caption": "Гладкость до 4 недель после шугаринга"
+    },
+    {
+      "key": "orchid",
+      "image": "images/gallery/orchid.jpg",
+      "caption": "Уходовая косметика после процедуры"
+    },
+    {
+      "key": "towels",
+      "image": "images/gallery/towels.jpg",
+      "caption": "Всё одноразовое или стерильное"
+    },
+    {
+      "key": "stones",
+      "image": "images/gallery/stones.jpg",
+      "caption": "Атмосфера, в которой не страшно"
+    }
+  ],
+  "demo": {
+    "bookings": 34
+  }
+}

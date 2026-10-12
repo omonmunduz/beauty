@@ -1,0 +1,65 @@
+{
+  "slug": "laser-lab",
+  "niche": "laser",
+  "name": "Laser Lab",
+  "short_name": "Laser Lab",
+  "tagline": "Лазерная эпиляция на диодном аппарате нового поколения",
+  "about": "Лаборатория гладкой кожи: диодный лазер 808 нм с охлаждением сапфировым наконечником. Процедуры ведут косметологи с медицинским образованием, курс подбирается после бесплатной консультации и тест-вспышки.",
+  "timezone": "Asia/Novosibirsk",
+  "currency": "RUB",
+  "locale": "ru-RU",
+  "accent": "#8FB8FF",
+  "contacts": {
+    "phone": "+7 (383) 000-56-78",
+    "whatsapp": "73830005678",
+    "telegram": "laserlab_demo",
+    "instagram": ""
+  },
+  "address": {
+    "text": "Новосибирск, Красный проспект, 77",
+    "note": "БЦ «Кристалл», 5 этаж, офис 512",
+    "map_url": "https://yandex.ru/maps/?text=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%2C%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%2077"
+  },
+  "policy": { "cancel_hours": 24, "slot_step_min": 30, "horizon_days": 45, "min_lead_min": 120 },
+  "hours": {
+    "mon": "09:00-20:00",
+    "tue": "09:00-20:00",
+    "wed": "09:00-20:00",
+    "thu": "09:00-20:00",
+    "fri": "09:00-20:00",
+    "sat": "10:00-18:00",
+    "sun": null
+  },
+  "exceptions": [],
+  "info_cards": [
+    { "icon": "snowflake", "title": "Охлаждение −4 °C", "text": "Сапфировый наконечник снимает дискомфорт, процедура ощущается как лёгкое покалывание." },
+    { "icon": "certificate", "title": "Медицинская лицензия", "text": "Процедуры проводят косметологи с медицинским образованием." },
+    { "icon": "gift", "title": "Тест-вспышка бесплатно", "text": "Перед курсом — консультация и проверка реакции кожи." }
+  ],
+  "images": { "hero": "images/hero.jpg", "logo": null },
+  "masters": [
+    { "key": "vera", "name": "Вера Лазарева", "role_title": "Врач-косметолог", "bio": "Ведёт сложные случаи: светлые волосы, тёмная кожа, гормональный рост.", "experience_years": 9, "photo": "images/masters/vera.jpg" },
+    { "key": "kira", "name": "Кира Орлова", "role_title": "Специалист по лазерной эпиляции", "bio": "Курсы для лица и тела, подбор параметров по фототипу.", "experience_years": 5, "photo": "images/masters/kira.jpg" },
+    { "key": "lena", "name": "Елена Гусева", "role_title": "Специалист по лазерной эпиляции", "bio": "Мужская лазерная эпиляция и большие зоны.", "experience_years": 3, "photo": "images/masters/lena.jpg" }
+  ],
+  "services": [
+    { "key": "consult", "category": "Консультация", "name": "Консультация + тест-вспышка", "description": "Осмотр, определение фототипа, тест на небольшом участке.", "duration_min": 30, "buffer_min": 0, "price": 0, "popular": true, "masters": ["vera", "kira", "lena"] },
+    { "key": "l-bikini-deep", "category": "Тело", "name": "Глубокое бикини", "description": "Одна процедура курса.", "duration_min": 30, "buffer_min": 10, "price": 3900, "popular": true, "masters": ["vera", "kira"] },
+    { "key": "l-underarms", "category": "Тело", "name": "Подмышки", "description": "", "duration_min": 15, "buffer_min": 10, "price": 1500, "masters": ["vera", "kira", "lena"] },
+    { "key": "l-legs", "category": "Тело", "name": "Ноги полностью", "description": "Крупная зона, лазер с большим пятном.", "duration_min": 60, "buffer_min": 10, "price": 6900, "masters": ["kira", "lena"] },
+    { "key": "l-shins", "category": "Тело", "name": "Голени", "description": "", "duration_min": 30, "buffer_min": 10, "price": 3500, "masters": ["kira", "lena"] },
+    { "key": "l-back-men", "category": "Мужская", "name": "Спина (мужская)", "description": "", "duration_min": 45, "buffer_min": 10, "price": 5500, "masters": ["lena"] },
+    { "key": "l-face-lip", "category": "Лицо", "name": "Верхняя губа", "description": "", "duration_min": 15, "buffer_min": 10, "price": 1200, "masters": ["vera", "kira"] },
+    { "key": "l-face-full", "category": "Лицо", "name": "Лицо полностью", "description": "Верхняя губа, подбородок, щёки, шея.", "duration_min": 30, "buffer_min": 10, "price": 3300, "masters": ["vera"] },
+    { "key": "l-total", "category": "Комплексы", "name": "Комплекс «Всё тело»", "description": "Бикини, подмышки, ноги, руки — за один визит.", "duration_min": 120, "buffer_min": 15, "price": 13900, "popular": true, "masters": ["kira", "lena"] }
+  ],
+  "gallery": [
+    { "key": "procedure", "image": "images/gallery/procedure.jpg", "caption": "Процедура с охлаждением" },
+    { "key": "smooth", "image": "images/gallery/smooth.jpg", "caption": "Результат после курса из 6 процедур" },
+    { "key": "skin", "image": "images/gallery/skin.jpg", "caption": "Подбор параметров под фототип" },
+    { "key": "care", "image": "images/gallery/care.jpg", "caption": "Постпроцедурный уход в подарок" },
+    { "key": "salts", "image": "images/gallery/salts.jpg", "caption": "Чистота и стерильность" },
+    { "key": "clinic", "image": "images/gallery/clinic.jpg", "caption": "Светлые кабинеты" }
+  ],
+  "demo": { "bookings": 26 }
+}

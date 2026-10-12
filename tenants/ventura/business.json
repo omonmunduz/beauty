@@ -1,0 +1,94 @@
+{
+  "slug": "ventura",
+  "niche": "depilation",
+  "name": "Ventura",
+  "short_name": "Ventura",
+  "tagline": "Не эпиляция, а женская терапия",
+  "about": "Лазерная эпиляция, шугаринг и воск в Бишкеке. Более 10 лет опыта, основатели SPA бикини, все виды эпиляции и ТОП-мастера. Полоска на животе и усики — в подарок к процедуре.",
+  "timezone": "Asia/Bishkek",
+  "currency": "KGS",
+  "locale": "ru-RU",
+  "accent": "#F2A7C3",
+  "contacts": {
+    "phone": "+996 700 999 729",
+    "whatsapp": "996700999729",
+    "telegram": "",
+    "instagram": "ventura_sugaring"
+  },
+  "address": {
+    "text": "Бишкек",
+    "note": "Точный адрес и как пройти — напишем в WhatsApp после записи",
+    "map_url": ""
+  },
+  "policy": { "cancel_hours": 6, "slot_step_min": 15, "horizon_days": 30, "min_lead_min": 60 },
+  "hours": {
+    "mon": "10:00-20:00",
+    "tue": "10:00-20:00",
+    "wed": "10:00-20:00",
+    "thu": "10:00-20:00",
+    "fri": "10:00-20:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-20:00"
+  },
+  "exceptions": [],
+  "info_cards": [
+    { "icon": "certificate", "title": "10+ лет опыта", "text": "Основатели SPA бикини в Бишкеке. Все виды эпиляции, ТОП-мастера." },
+    { "icon": "gift", "title": "Каждая 6-я и 11-я — в подарок", "text": "На лазерной эпиляции каждая шестая и одиннадцатая процедура бесплатно." },
+    { "icon": "heart", "title": "Женская терапия", "text": "Полоска на животе и усики — в подарок к любой процедуре шугаринга." }
+  ],
+  "images": { "hero": "images/hero.jpg", "logo": null },
+  "masters": [
+    { "key": "sugar-1", "name": "Мастер шугаринга", "role_title": "Шугаринг и воск", "bio": "", "experience_years": null, "photo": null },
+    { "key": "sugar-2", "name": "Мастер шугаринга и воска", "role_title": "Шугаринг, воск, SPA бикини", "bio": "", "experience_years": null, "photo": null },
+    { "key": "laser", "name": "Специалист по лазеру", "role_title": "Лазерная эпиляция, диодный лазер", "bio": "", "experience_years": null, "photo": null }
+  ],
+  "services": [
+    { "key": "s-bikini-classic", "category": "Шугаринг / воск", "name": "Классика бикини", "duration_min": 30, "buffer_min": 10, "price": 900, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-bikini-deep", "category": "Шугаринг / воск", "name": "Глубокое бикини", "duration_min": 45, "buffer_min": 10, "price": 1500, "popular": true, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-intim-cut", "category": "Шугаринг / воск", "name": "Интим-стрижка", "duration_min": 15, "buffer_min": 5, "price": 600, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-legs-knee", "category": "Шугаринг / воск", "name": "Ноги до колен", "duration_min": 30, "buffer_min": 10, "price": 1100, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-legs-full", "category": "Шугаринг / воск", "name": "Ноги полностью", "duration_min": 50, "buffer_min": 10, "price": 1500, "popular": true, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-arms-full", "category": "Шугаринг / воск", "name": "Руки полностью", "duration_min": 30, "buffer_min": 10, "price": 1200, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-arms-elbow", "category": "Шугаринг / воск", "name": "Руки до локтей", "duration_min": 20, "buffer_min": 10, "price": 900, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-paraffin", "category": "Шугаринг / воск", "name": "Парафинотерапия рук", "duration_min": 30, "buffer_min": 10, "price": 850, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-underarms", "category": "Шугаринг / воск", "name": "Подмышки", "duration_min": 15, "buffer_min": 5, "price": 400, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-whitening", "category": "Шугаринг / воск", "name": "Отбеливание", "description": "Деликатное осветление кожи интимной зоны.", "duration_min": 30, "buffer_min": 10, "price": 1100, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-back", "category": "Шугаринг / воск", "name": "Спина", "duration_min": 30, "buffer_min": 10, "price": 800, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-belly", "category": "Шугаринг / воск", "name": "Живот полностью", "description": "Полоска на животе — в подарок к любой процедуре.", "duration_min": 15, "buffer_min": 5, "price": 500, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-glutes", "category": "Шугаринг / воск", "name": "Ягодицы", "duration_min": 20, "buffer_min": 5, "price": 500, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-face", "category": "Шугаринг / воск", "name": "Лицо полностью", "description": "Усики — в подарок к любой процедуре.", "duration_min": 30, "buffer_min": 10, "price": 1200, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "s-sideburns", "category": "Шугаринг / воск", "name": "Бакенбарды", "duration_min": 15, "buffer_min": 5, "price": 400, "masters": ["sugar-1", "sugar-2"] },
+
+    { "key": "combo-xs", "category": "Комбо шугаринг / воск", "name": "Комбо XS", "description": "Глубокое бикини + подмышки.", "duration_min": 60, "buffer_min": 10, "price": 1800, "popular": true, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "combo-s", "category": "Комбо шугаринг / воск", "name": "Комбо S", "description": "Глубокое бикини + подмышки + ноги до колен.", "duration_min": 90, "buffer_min": 10, "price": 2700, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "combo-m", "category": "Комбо шугаринг / воск", "name": "Комбо M", "description": "Глубокое бикини + подмышки + ноги до колен + руки до локтей.", "duration_min": 110, "buffer_min": 10, "price": 3500, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "combo-l", "category": "Комбо шугаринг / воск", "name": "Комбо L", "description": "Глубокое бикини + подмышки + ноги полностью + руки полностью.", "duration_min": 130, "buffer_min": 10, "price": 4200, "masters": ["sugar-1", "sugar-2"] },
+    { "key": "combo-xl", "category": "Комбо шугаринг / воск", "name": "Комбо XL", "description": "Глубокое бикини + подмышки + ноги полностью + руки полностью + спина / живот / ягодицы.", "duration_min": 165, "buffer_min": 15, "price": 5500, "masters": ["sugar-1", "sugar-2"] },
+
+    { "key": "l-bikini-classic", "category": "Лазер", "name": "Классика бикини", "duration_min": 20, "buffer_min": 10, "price": 1500, "masters": ["laser"] },
+    { "key": "l-bikini-deep", "category": "Лазер", "name": "Глубокое бикини", "duration_min": 30, "buffer_min": 10, "price": 2500, "popular": true, "masters": ["laser"] },
+    { "key": "l-mix", "category": "Лазер", "name": "Микс (лазер + шугаринг)", "duration_min": 45, "buffer_min": 10, "price": 2500, "masters": ["laser"] },
+    { "key": "l-legs-knee", "category": "Лазер", "name": "Ноги до колен", "duration_min": 30, "buffer_min": 10, "price": 2500, "masters": ["laser"] },
+    { "key": "l-legs-full", "category": "Лазер", "name": "Ноги полностью", "duration_min": 50, "buffer_min": 10, "price": 3500, "masters": ["laser"] },
+    { "key": "l-arms-elbow", "category": "Лазер", "name": "Руки до локтей", "duration_min": 20, "buffer_min": 10, "price": 1900, "masters": ["laser"] },
+    { "key": "l-arms-full", "category": "Лазер", "name": "Руки полностью", "duration_min": 30, "buffer_min": 10, "price": 2500, "masters": ["laser"] },
+    { "key": "l-underarms", "category": "Лазер", "name": "Подмышки", "duration_min": 15, "buffer_min": 5, "price": 1500, "masters": ["laser"] },
+    { "key": "l-back", "category": "Лазер", "name": "Спина", "duration_min": 30, "buffer_min": 10, "price": 3000, "masters": ["laser"] },
+    { "key": "l-belly", "category": "Лазер", "name": "Живот полностью", "description": "Полоска на животе — в подарок.", "duration_min": 20, "buffer_min": 5, "price": 2500, "masters": ["laser"] },
+    { "key": "l-glutes", "category": "Лазер", "name": "Ягодицы", "duration_min": 20, "buffer_min": 5, "price": 1800, "masters": ["laser"] },
+    { "key": "l-lower-back", "category": "Лазер", "name": "Поясница", "duration_min": 15, "buffer_min": 5, "price": 1500, "masters": ["laser"] },
+    { "key": "l-face", "category": "Лазер", "name": "Лицо полностью", "duration_min": 20, "buffer_min": 10, "price": 2500, "masters": ["laser"] },
+    { "key": "l-lip", "category": "Лазер", "name": "Усики", "duration_min": 10, "buffer_min": 5, "price": 900, "masters": ["laser"] },
+    { "key": "l-sideburns", "category": "Лазер", "name": "Бакенбарды", "duration_min": 10, "buffer_min": 5, "price": 900, "masters": ["laser"] },
+    { "key": "l-neck", "category": "Лазер", "name": "Шея", "duration_min": 10, "buffer_min": 5, "price": 900, "masters": ["laser"] }
+  ],
+  "gallery": [
+    { "key": "care", "image": "images/gallery/care.jpg", "caption": "Женская терапия, а не просто эпиляция" },
+    { "key": "laser", "image": "images/gallery/laser.jpg", "caption": "Диодный лазер последнего поколения" },
+    { "key": "smooth", "image": "images/gallery/smooth.jpg", "caption": "Гладкая кожа надолго" },
+    { "key": "peony", "image": "images/gallery/peony.jpg", "caption": "Уютная атмосфера студии" },
+    { "key": "ritual", "image": "images/gallery/ritual.jpg", "caption": "Всё одноразовое и стерильное" },
+    { "key": "lotus", "image": "images/gallery/lotus.jpg", "caption": "SPA бикини — наш авторский ритуал" }
+  ],
+  "demo": { "bookings": 30 }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "silk-room",
+  "niche": "depilation",
+  "name": "Silk Room",
+  "short_name": "Silk Room",
+  "tagline": "Шугаринг и воск — бережно, быстро, без лишней боли",
+  "about": "Камерная студия депиляции в центре. Работаем на профессиональных пастах и плёночном воске, всё одноразовое, кабинеты проветриваются и обрабатываются после каждого гостя. Подберём технику под ваш тип кожи и порог чувствительности.",
+  "timezone": "Europe/Moscow",
+  "currency": "RUB",
+  "locale": "ru-RU",
+  "accent": "#E8A598",
+  "contacts": {
+    "phone": "+7 (495) 000-12-34",
+    "whatsapp": "74950001234",
+    "telegram": "silkroom_demo",
+    "instagram": "silkroom.demo"
+  },
+  "address": {
+    "text": "Москва, Малая Никитская ул., 12",
+    "note": "Вход со двора, домофон 12, второй этаж",
+    "map_url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%20%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D1%81%D0%BA%D0%B0%D1%8F%2012"
+  },
+  "policy": { "cancel_hours": 12, "slot_step_min": 15, "horizon_days": 30, "min_lead_min": 60 },
+  "hours": {
+    "mon": "10:00-21:00",
+    "tue": "10:00-21:00",
+    "wed": "10:00-21:00",
+    "thu": "10:00-21:00",
+    "fri": "10:00-21:00",
+    "sat": "11:00-19:00",
+    "sun": "11:00-17:00"
+  },
+  "exceptions": [
+    { "date": "2026-12-31", "hours": "10:00-15:00", "note": "Предпраздничный день" },
+    { "date": "2027-01-01", "hours": null, "note": "Новый год" }
+  ],
+  "info_cards": [
+    { "icon": "shield-check", "title": "Всё одноразовое", "text": "Шпатели, перчатки, простыни — новые для каждого гостя. Стерилизация по СанПиН." },
+    { "icon": "leaf", "title": "Мягкие составы", "text": "Паста без отдушек и плёночный воск для чувствительных зон." },
+    { "icon": "clock", "title": "Без ожидания", "text": "Между гостями 15 минут на подготовку кабинета — начинаем вовремя." }
+  ],
+  "images": { "hero": "images/hero.jpg", "logo": null },
+  "masters": [
+    {
+      "key": "angela",
+      "name": "Анжела Мельникова",
+      "role_title": "Топ-мастер, шугаринг",
+      "bio": "Специализируется на глубоком бикини и чувствительной коже. Обучает мастеров студии.",
+      "experience_years": 11,
+      "photo": "images/masters/angela.jpg"
+    },
+    {
+      "key": "daria",
+      "name": "Дарья Соколова",
+      "role_title": "Мастер шугаринга и воска",
+      "bio": "Быстрая и аккуратная техника, работает с плёночным воском.",
+      "experience_years": 6,
+      "photo": "images/masters/daria.jpg"
+    },
+    {
+      "key": "marina",
+      "name": "Марина Ким",
+      "role_title": "Мастер воска",
+      "bio": "Восковая депиляция лица и тела, комплексы «под ключ».",
+      "experience_years": 4,
+      "photo": "images/masters/marina.jpg"
+    }
+  ],
+  "services": [
+    { "key": "bikini-deep", "category": "Шугаринг", "name": "Глубокое бикини", "description": "Полное удаление волос в зоне бикини, включая межъягодичную зону.", "duration_min": 45, "buffer_min": 15, "price": 2600, "popular": true, "masters": ["angela", "daria"] },
+    { "key": "bikini-classic", "category": "Шугаринг", "name": "Классическое бикини", "description": "Зона по линии белья.", "duration_min": 30, "buffer_min": 15, "price": 1500, "masters": ["angela", "daria"] },
+    { "key": "legs-full", "category": "Шугаринг", "name": "Ноги полностью", "description": "Стопы, голени, колени и бёдра.", "duration_min": 60, "buffer_min": 15, "price": 2800, "popular": true, "masters": ["angela", "daria"] },
+    { "key": "legs-shins", "category": "Шугаринг", "name": "Голени", "description": "С коленями.", "duration_min": 30, "buffer_min": 15, "price": 1400, "masters": ["angela", "daria"] },
+    { "key": "underarms", "category": "Шугаринг", "name": "Подмышки", "description": "", "duration_min": 15, "buffer_min": 15, "price": 700, "masters": ["angela", "daria", "marina"] },
+    { "key": "arms-full", "category": "Шугаринг", "name": "Руки полностью", "description": "Кисти, предплечья и плечи.", "duration_min": 40, "buffer_min": 15, "price": 1600, "masters": ["angela", "daria"] },
+    { "key": "wax-face", "category": "Воск", "name": "Лицо: верхняя губа и подбородок", "description": "Плёночный воск, подходит для чувствительной кожи.", "duration_min": 20, "buffer_min": 10, "price": 900, "masters": ["marina", "daria"] },
+    { "key": "wax-brows", "category": "Воск", "name": "Коррекция бровей воском", "description": "Форма + коррекция.", "duration_min": 30, "buffer_min": 10, "price": 1200, "masters": ["marina"] },
+    { "key": "wax-legs", "category": "Воск", "name": "Ноги полностью воском", "description": "Тёплый воск, быстрый результат.", "duration_min": 50, "buffer_min": 15, "price": 2500, "masters": ["marina", "daria"] },
+    { "key": "combo-total", "category": "Комплексы", "name": "Комплекс «Тотал»", "description": "Глубокое бикини + ноги полностью + подмышки. Экономия 900 ₽.", "duration_min": 120, "buffer_min": 15, "price": 5200, "popular": true, "masters": ["angela", "daria"] },
+    { "key": "combo-summer", "category": "Комплексы", "name": "Комплекс «Лето»", "description": "Голени + подмышки + классическое бикини.", "duration_min": 75, "buffer_min": 15, "price": 3200, "masters": ["angela", "daria"] },
+    { "key": "first-visit", "category": "Комплексы", "name": "Первый визит: консультация + зона на выбор", "description": "Подберём технику и проведём пробную процедуру одной небольшой зоны.", "duration_min": 30, "buffer_min": 15, "price": 990, "price_is_from": true, "masters": ["angela", "daria", "marina"] }
+  ],
+  "gallery": [
+    { "key": "room", "image": "images/gallery/room.jpg", "caption": "Тёплый кабинет и мягкий свет" },
+    { "key": "ritual", "image": "images/gallery/ritual.jpg", "caption": "Свежий текстиль для каждого гостя" },
+    { "key": "legs", "image": "images/gallery/legs.jpg", "caption": "Гладкость до 4 недель после шугаринга" },
+    { "key": "orchid", "image": "images/gallery/orchid.jpg", "caption": "Уходовая косметика после процедуры" },
+    { "key": "towels", "image": "images/gallery/towels.jpg", "caption": "Всё одноразовое или стерильное" },
+    { "key": "stones", "image": "images/gallery/stones.jpg", "caption": "Атмосфера, в которой не страшно" }
+  ],
+  "demo": { "bookings": 34 }
+}

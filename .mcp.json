@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@0.0.41"]
+    },
+    "supabase-local": {
+      "type": "http",
+      "url": "http://127.0.0.1:55321/mcp"
+    }
+  }
+}
